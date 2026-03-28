@@ -3,24 +3,11 @@
   margin: 0%;
   box-sizing: border-box;
 }
-img {
-  width: 250px;
-  height: auto;
-  border-radius: 10px;
-}
 body {
   background-color: #e4f2ff;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-.caja {
-  display: flex;
-  gap: 50px;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 550px;
 }
 h1 {
   text-align: center;
@@ -33,10 +20,18 @@ h1 {
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.uno {
+.pprincipal {
   font-size: larger;
   text-align: center;
   padding: 40px;
+}
+.caja {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 550px;
 }
 .bere {
   background-color: #91aec4;
@@ -62,8 +57,9 @@ h2 {
 }
 footer {
   background-color: lightblue;
-
   margin-top: auto;
+  padding: 20px;
+  text-align: center;
 }
 p {
   font-family:
@@ -75,8 +71,25 @@ a {
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
 li {
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+div h2 {
+  text-align: center;
+}
+.proyecto {
+  background-color: #7b9db6;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
 }
