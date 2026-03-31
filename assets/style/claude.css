@@ -1,0 +1,62 @@
+.funnel-sans {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body {
+  background-color: #212121;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: #212121;
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+a {
+  color: rgb(158, 158, 158);
+  font-family: "Funnel Sans", sans-serif;
+  text-decoration: none;
+}
+img {
+  width: 150px;
+  height: 110px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.opciones {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.botones {
+  gap: 15px;
+  display: flex;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.boton {
+  background-color: #212121;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bolder;
+  border: 0.5px solid white;
+}
+.blanco {
+  background-color: white;
+  color: #212121;
+}
