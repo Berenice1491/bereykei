@@ -36,11 +36,12 @@ h2 {
   background-color: #81624a;
   box-sizing: border-box;
   transition: transform 0.5s ease;
-  box-shadow: 1px 7px 33px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 7px 33px 5px rgba(150, 111, 89, 0.74);
   -webkit-box-shadow: 1px 7px 33px 5px rgba(0, 0, 0, 0.5);
   font-family: "Merienda", cursive;
   color: #fff;
   text-align: justify;
+  border-radius: 15px;
 }
 .chocolate-blanco {
   display: flex;
