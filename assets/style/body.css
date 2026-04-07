@@ -1,0 +1,65 @@
+.seccion-cuenta {
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seccion-imagen {
+  background-color: rgb(255, 0, 34);
+  height: 100vh;
+  border-radius: 20px;
+}
+.caja-body {
+  display: grid;
+  grid-template-columns: 800px 800px;
+  grid-template-rows: 200px;
+  gap: 20px;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.texto {
+  padding: 20px;
+}
+.caja-cuenta {
+  background-color: blue;
+  border-radius: 20px;
+  width: 450px;
+  height: 250px;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: thistle;
+  padding: 20px;
+}
+.boton-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+button img {
+  width: 20px;
+  height: 20px;
+}
+.boton-correo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
