@@ -5,12 +5,12 @@
   font-style: normal;
 }
 body {
-  background-color: #212121;
+  background-color: #141414;
 }
 header {
   display: flex;
   align-items: center;
-  background-color: #212121;
+  background-color: #141414;
   width: 80%;
   height: 70px;
   margin: 0 auto;
@@ -49,14 +49,14 @@ button {
 }
 
 .boton {
-  background-color: #212121;
+  background-color: #141414;
   color: rgb(255, 255, 255);
   padding: 10px 20px;
   border-radius: 10px;
   font-weight: bolder;
-  border: 0.5px solid white;
+  border: 0.5px solid rgb(63, 63, 63);
 }
 .blanco {
   background-color: white;
-  color: #212121;
+  color: #141414;
 }
