@@ -1,11 +1,9 @@
 const pro = document.getElementById("product");
-
 const cate = document.getElementById("categorias");
-
-pro.addEventListener("mouseenter", () => {
-  cate;
+pro.addEventListener("mouseout", () => {
+  cate.classList.remove(" font-extrabold");
 });
 
-pro.addEventListener("mouseout", () => {
-  cate.classList.remove("hidden");
+pro.addEventListener("mouseenter", () => {
+  cate.classList.add("font-extrabold");
 });
