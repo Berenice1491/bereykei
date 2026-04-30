@@ -8,7 +8,7 @@
 //const nombreDeUsuario = prompt("Ingrese su nombre.");
 //alert("Hola, " + nombreDeUsuario);
 
-let dni = prompt("Ingrese su DNI");
+-let dni = prompt("Ingrese su DNI");
 
 while (dni.length < 7 || dni.length > 9) {
   alert("DNI inválido");
@@ -53,3 +53,4 @@ while (
   alert("Edad inválida");
   edad = prompt("Ingrese su edad");
 }
+ 
